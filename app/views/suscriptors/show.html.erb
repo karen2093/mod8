@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @suscriptor %>
+
+<div>
+  <%= link_to "Editar datos", edit_suscriptor_path(@suscriptor) %> |
+  <%= link_to "Volver", suscriptors_path %>
+
+  <%= button_to "Eliminar", @suscriptor, method: :delete %>
+</div>

@@ -1,0 +1,89 @@
+<h3>Noticias de último minuto</h3><hr>
+<div class="card-group">
+  <div class="card">
+    <img src="https://www.latercera.com/resizer/6hLUnkRQzRwH7nSFfQWEQf4IdCQ=/768x512/smart/filters:quality(70):format(webp)/cloudfront-us-east-1.images.arcpublishing.com/copesa/PO6NJPM3HBEWBARCSS5KY62Z7E.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Intensas lluvias dejan al menos 28 personas fallecidas en Guatemala</h5>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      <td><%= link_to "Ver más", home_nacional_path, class: "nav-link"%></td>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://www.latercera.com/resizer/L4vr7TOWwqPa2J6eXXcWYaYClvE=/768x512/smart/filters:quality(70):format(webp)/cloudfront-us-east-1.images.arcpublishing.com/copesa/TRSEZZQPR5E3VF47PEMFM6YMHU.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Nueva Constitución | ¿Cuándo es el Plebiscito de Salida y qué día son las votaciones?</h5>
+     <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+     <td><%= link_to "Ver más", home_nacional_path, class: "nav-link"%></td>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://www.latercera.com/resizer/gQOdMJIvjKc-lqGDK-5Ao_x6LOw=/768x512/smart/filters:quality(70):format(webp)/cloudfront-us-east-1.images.arcpublishing.com/copesa/4N4SUQ7B5NAVNO4SLL3T3YRETU.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Macron firma el protocolo de ratificación para la adhesión de Suecia y Finlandia a la OTAN</h5>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      <td><%= link_to "Ver más", home_internacional_path, class: "nav-link"%></td>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://www.latercera.com/resizer/0hMvNZDWWBY4W74zTBOkd1BC7GA=/400x267/smart/filters:quality(70):format(webp)/cloudfront-us-east-1.images.arcpublishing.com/copesa/CYFRNCCT5BBTRP2T2KVEAPOLXM.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Aumentan los aforos para el fútbol chileno: El Nacional podría recibir más de 35 mil hinchas</h5>
+     <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+     <td><%= link_to "Ver más", home_deportes_path, class: "nav-link"%></td>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://www.latercera.com/resizer/BdXZli9NhCqj0U3drBYZHDG--YM=/400x267/smart/filters:quality(70):format(webp)/cloudfront-us-east-1.images.arcpublishing.com/copesa/3KBKD6Y2AMB4R4NUAWAXWDBRI4.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Bono Invierno Chile Apoya: ¿Cuándo comienza la segunda etapa de pagos?</h5>
+       <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+       <td><%= link_to "Ver más", home_nacional_path, class: "nav-link"%></td>
+    </div>
+  </div>
+</div>
+
+<hr>
+
+<table id="example" class="table table-striped table-bordered" style="width:100%">
+        <thead>
+            <tr>
+                <th>Destacados</th>
+                <th>Encabezado</th>
+                <th>Cuerpo</th>
+                <th>Link</th>
+                <th>Fecha</th>             
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Deportes</td>
+                <td>La FIFA determina adelantar en un día el inicio del Mundial: la inauguración será con Qatar - Ecuador</td>
+                <td>Este jueves, el ente rector del fútbol comunicó la decisión que mover el arranque de la Copa del Mundo al domingo 20 de noviembre. Con ello, será el país organizador el que de el vamos del certamen, como estila la tradición.</td>
+                <td><%= link_to "Aquí", home_deportes_path, class: "nav-link"%></td>
+                <td>2022-08-11</td>
+            </tr>
+            <tr>
+                <td>Internacional</td>
+                <td>El "monstruoso" incendio forestal que está asolando el suroeste de Francia</td>
+                <td>Más de 1.000 bomberos luchan contra un incendio forestal "monstruoso" en el suroeste de Francia, que ya ha destruído casi 7.000 hectáreas de bosque, informaron las autoridades.</td>
+                <td><%= link_to "Aquí", home_internacional_path, class: "nav-link"%></td>
+                <td>2022-08-10</td>
+            </tr>
+            <tr>
+                <td>Nacional</td>
+                <td>AChM y autoridades de Transporte se reúnen para abordar plan para el plebiscito del 4 de septiembre</td>
+                <td>“Es muy importante planificar y anticipar de manera oportuna un proceso electoral tan importante", señaló la alcaldesa Carolina Leitao. </td>
+                 <td><%= link_to "Aquí", home_nacional_path, class: "nav-link"%></td>
+                <td>2022-08-10</td>
+            </tr>
+            <tr>
+                <td>Política</td>
+                <td>¿Dónde voto? Servel publicará este sábado los puntos y mesas de sufragio, además de la nómina de vocales para el plebiscito</td>
+                <td>Con el debut de norma que establece que el local de votación debe ser cercano al domicilio registrado por cada elector, un alto porcentaje de votantes cambiará de local y mesa. Elección del 4 de septiembre es con participación obligatoria.</td>
+                <td><%= link_to "Aquí", home_politica_path, class: "nav-link"%></td>
+                <td>2022-08-11</td>
+            </tr>
+          
+        </tbody>
+       
+    </table>

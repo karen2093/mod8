@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Suscriptores</h1>
+
+<div id="suscriptors">
+  <% @suscriptors.each do |suscriptor| %>
+    <%= render suscriptor %>
+    <p>
+      <%= link_to "Ver suscriptor", suscriptor %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "Nuevo suscriptor", new_suscriptor_path %>
